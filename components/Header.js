@@ -14,9 +14,10 @@ function Header() {
         <Image
           src="https://links.papareact.com/qd3"
           alt=""
-          layout="fill"
-          objectFit="contain"
-          objectPosition="left"
+          priority
+          fill
+          sizes="100vw"
+          className="object-contain object-left"
         />
       </div>
 
